@@ -13,13 +13,15 @@ password = userName + userSubName + usercolor + 21;
 
 console.log(password);
 
-password = userName + userSubName + usercolor + (firstNumber / secondNumber);
+password = userName + userSubName + usercolor + Math.trunc(firstNumber / secondNumber);
 
 console.log(password);
 
 document.getElementById('new-password').innerHTML = password;
-document.getElementById('new-password-two').innerHTML = password = usercolor + userName + userSubName + (secondNumber / firstNumber);
-document.getElementById('new-password-three').innerHTML = password = userSubName + usercolor + userName + (secondNumber + firstNumber);
+document.getElementById('new-password-two').innerHTML = password = usercolor + userName + userSubName + Math.trunc(secondNumber / firstNumber);
+document.getElementById('new-password-three').innerHTML = password = userSubName + usercolor + userName + Math.trunc((secondNumber - firstNumber) / 2);
+document.getElementById('new-password-four').innerHTML = password = userSubName + userName + Math.trunc(Math.random() * (secondNumber+firstNumber)) + usercolor ;
+
 
 
 
