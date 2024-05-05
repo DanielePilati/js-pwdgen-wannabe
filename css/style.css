@@ -1,4 +1,6 @@
 .accordion {
   --bs-accordion-active-bg: #ffc107;
   --bs-accordion-btn-focus-box-shadow: #ffc107;
+  --bs-accordion-btn-bg: #ffc107;
+  --bs-accordion-bg: #ffc1072a;
 }
