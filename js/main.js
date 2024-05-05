@@ -1,5 +1,6 @@
 'use strict';
 
+
 let userName = prompt('inserisci il tuo nome');
 let userSubName = prompt('inserisci il tuo cognome');
 let usercolor = prompt('inserisci il tuo colore preferito');
@@ -17,6 +18,7 @@ password = userName + userSubName + usercolor + (firstNumber / secondNumber);
 console.log(password);
 
 document.getElementById('new-password').innerHTML = password;
+document.getElementById('new-password-two').innerHTML = password = usercolor + userName + userSubName + (secondNumber/ firstNumber);
 
 
 
