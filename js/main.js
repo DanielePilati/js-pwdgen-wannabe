@@ -19,7 +19,7 @@ password = userName + userSubName + usercolor + (firstNumber / secondNumber);
 
 console.log(password);
 
-document.getElementById('password').innerHTML = password;
+document.getElementById('new-password').innerHTML = password;
 
 
 
