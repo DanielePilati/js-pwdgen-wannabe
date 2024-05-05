@@ -9,12 +9,17 @@ let usercolor = prompt('inserisci il tuo colore preferito');
 let firstNumber = Number(prompt('inserisci il primo numero'));
 let secondNumber = Number(prompt('inserisci il secondo numero'));
 
+let password = 'voidpassword';
 
-console.log(userName + userSubName + usercolor + 21);
+password = userName + userSubName + usercolor + 21;
 
-console.log(userName + userSubName + usercolor + (firstNumber/secondNumber));
+console.log(password);
 
+password = userName + userSubName + usercolor + (firstNumber / secondNumber);
 
+console.log(password);
+
+document.getElementById('password').innerHTML = password;
 
 
 
