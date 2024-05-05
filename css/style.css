@@ -4,3 +4,7 @@
   --bs-accordion-btn-bg: #ffc107;
   --bs-accordion-bg: #ffc1072a;
 }
+body {
+  font-family: "Audiowide", sans-serif;
+  text-shadow: 1px 1px 3px #ababab;
+}
